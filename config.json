@@ -1,0 +1,25 @@
+{
+  "server": {
+    "port": 8013,
+    "host": "",
+    "log_level": "WARNING",
+    "additional_font_folder": ""
+  },
+  "printer": {
+    "model": "QL-800",
+    "printer": "file:///dev/usb/lp1"
+  },
+  "label": {
+    "default_size": "17x54",
+    "default_orientation": "standard",
+    "default_font_size": 150,
+    "default_fonts": [
+      {"family": "DejaVu Sans", "style": "Bold"}
+    ]
+  },
+  "website": {
+    "html_title": "Label Designer",
+    "page_title": "Brother QL Label Designer",
+    "page_headline": "Design your label and print it…"
+  }
+}

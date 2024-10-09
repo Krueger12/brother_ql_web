@@ -1,6 +1,3 @@
-# Ignore custom configuration file.
-config.json
-
 # Ignore test files.
 sample-out.png
 

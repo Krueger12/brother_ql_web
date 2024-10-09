@@ -238,7 +238,7 @@ def generate_label(
         parameters.label_size,
         red=red,
         threshold=parameters.threshold,
-        cut=True,
+        cut=False,
         rotate=rotate,
         dpi_600=False,
     )
