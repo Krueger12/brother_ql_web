@@ -36,7 +36,6 @@ def repl():
                   "margin_left": 35,
                   "margin_right": 35,
                   "label_count": 1,
-                  "high_quality": "true",
                 }
 
 

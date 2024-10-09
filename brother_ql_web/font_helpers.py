@@ -34,7 +34,7 @@ def _get_fonts_using_fontconfig(folder: str | None = None) -> dict[str, dict[str
         parts = line.split(":")
         if "style=" not in line or len(parts) < 3:
             # fc-list did not output all desired properties
-            logger.warning("skipping invalid font %s", line)
+            # logger.warning("skipping invalid font %s", line)
             continue
         path = parts[0]
         families = parts[1].strip().split(",")
