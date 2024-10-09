@@ -11,6 +11,8 @@ cleanup() {
 # Trap SIGINT (Ctrl+C) and call cleanup function
 trap cleanup SIGINT
 
+# Create a virtual environment
+python3 -m venv /home/hbk/private/shift-print/brother_ql_web/venv
 
 # Navigate to the project directory
 cd /home/hbk/private/shift-print/brother_ql_web
